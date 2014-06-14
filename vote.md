@@ -16,7 +16,7 @@ CRA는 이번 제 3회 삼성 SDS 「S/W 동아리 Championship」에 참가하�
 
 ## Overcast 클라우드 컴퓨팅 시스템
 
-![Alt text](/images/overcast-1.png)
+![Overcast-Overview](/images/overcast-1.png)
 
 ### 문제 정의
 
@@ -98,5 +98,5 @@ CRA에서 보유한 하드웨어 자원들을 효율적으로 사용할 방법�
 
 ## Kinect와 영상인식을 이용한 어린이 놀이 재해석
 
-
+![키넥트x숭익](/images/kinect-x-monkey.jpg)
 
