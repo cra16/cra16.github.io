@@ -8,7 +8,7 @@ url:              http://cra16.github.io
 owner:
   name:           CRA
   avatar:         cra-logo-white.jpg
-  bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
+  bio:            "한동전산연구회"
   email:          cra.handong@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
@@ -34,11 +34,8 @@ bing_verify:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: Theme Setup
-    url: /theme-setup
-  - title: External Link
-    url: http://mademistakes.com
-    external: true
+  - title: Vote
+    url: /vote
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Asia/Seoul
