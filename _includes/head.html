@@ -40,6 +40,20 @@
 
 <meta http-equiv="cleartype" content="on">
 
+<!-- FONTFACE.KR -->
+<script src="http://www.google.com/jsapi"></script>
+<script>
+google.load("webfont", "1");
+google.setOnLoadCallback(function () {
+  WebFont.load({
+    custom: {
+      families: ["NanumGothic"],
+      urls: ["http://fontface.kr/NanumGothic/css"]
+    }
+  });
+});
+</script>
+
 <!-- Load Modernizr -->
 <script src="{{ site.url }}/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
 

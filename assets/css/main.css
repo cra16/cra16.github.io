@@ -276,7 +276,7 @@ a {
 }
 
 body {
-  font-family: 'Lato', Calibri, Arial, sans-serif;
+  font-family: 'Lato', 'NanumGothic', Calibri, Arial, sans-serif;
   color: #222222;
 }
 
@@ -286,7 +286,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Lato', Calibri, Arial, sans-serif;
+  font-family: 'Lato', 'NanumGothic', Calibri, Arial, sans-serif;
 }
 
 h1 {
