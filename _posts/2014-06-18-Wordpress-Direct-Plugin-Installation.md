@@ -24,7 +24,7 @@ chown -R apache:apache wordpress/
 
 ### Wordpress 폴더 권한 확인
 
-다음 권한이 되도록 바꿔주어야 한다.
+다음 권한이 되도록 바꿔준다.
 
 ```
 -rw-r--r--
