@@ -1,8 +1,11 @@
 ---
 layout: post
-title: Git Seminar Announcement
-tags: "git, seminar"
-published: true
+title:  "Git Seminar Announcement"
+date:   2015-01-03
+project: true
+tag:
+- git
+comments: true
 ---
 
 # 준비물

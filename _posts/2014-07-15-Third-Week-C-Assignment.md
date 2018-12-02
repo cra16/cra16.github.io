@@ -1,8 +1,13 @@
 ---
 layout: post
-title: 3주차 C 언어 과제
-tags: C
+title:  "3주차 C 언어 과제"
+date:   2014-07-15
+project: true
+tag:
+- C
+comments: true
 ---
+
 
 # 스무고개
 

@@ -1,7 +1,11 @@
 ---
 layout: post
-title: 1주차 C 언어 과제
-tags: C
+title:  "1주차 C 언어 과제"
+date:   2014-07-02
+project: true
+tag:
+- C
+comments: true
 ---
 
 ### 시작하기 전에...

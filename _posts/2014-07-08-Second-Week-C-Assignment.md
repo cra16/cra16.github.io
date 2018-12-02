@@ -1,7 +1,11 @@
 ---
 layout: post
-title: 2주차 C 언어 과제
-tags: C
+title:  "2주차 C 언어 과제"
+date:   2014-07-08
+project: true
+tag:
+- C
+comments: true
 ---
 
 이번 과제에서는 특수문자(Escape Character)의 활용과 ```printf()``` 함수의 서식 지정 활용법을 연습해본다.
