@@ -2,7 +2,6 @@
 layout: post
 title:  "2주차 C 언어 과제"
 date:   2014-07-08
-project: true
 tag:
 - C
 comments: true

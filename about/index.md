@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CRA Introduction
-tags: [about, Jekyll, theme, moon]
+tags: [about, cra]
 date: 2018-12-02
 comments: false
 ---
@@ -18,3 +18,11 @@ comments: false
 - ## i7
 - ## iBelong
 
+# Projects (2019)
+- ## Scheduling Mobile Application
+- ## i9
+
+# Previous Projects
+- ## iSeed (2018 ~ )
+- ## iTaxi (2015 ~ )
+- ## SEAL (2015 ~ )

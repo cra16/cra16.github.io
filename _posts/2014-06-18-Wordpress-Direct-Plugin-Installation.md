@@ -2,7 +2,6 @@
 layout: post
 title:  "Wordpress Direct Plugin Installation"
 date:   2014-06-18
-project: true
 tag:
 - Wordpress
 comments: true
