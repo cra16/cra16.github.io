@@ -275,3 +275,17 @@ nav{
 .cra-section-gallery .btn:focus {
   box-shadow: none !important;
 }
+
+.cra-project-explanation {
+  margin-top: 1rem !important;
+  margin-bottom: 3rem !important;
+}
+
+.cra-img {
+  background-color: rgba(94, 168, 223, 1.0) !important;
+  padding: 0.2rem;
+}
+
+.cra-history {
+  padding-left: 2.5rem !important;
+}
