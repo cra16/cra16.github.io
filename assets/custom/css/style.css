@@ -289,3 +289,7 @@ nav{
 .cra-history {
   padding-left: 2.5rem !important;
 }
+
+li {
+  margin-bottom: 1rem !important;
+}
