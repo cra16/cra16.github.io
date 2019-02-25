@@ -295,3 +295,11 @@ li {
 }
 
 ul { list-style-type: none; }
+
+.cra-impact {
+  font-size: 1.2rem;
+}
+
+.cra-btn-apply {
+  font-size: 2rem;
+}
