@@ -46,10 +46,10 @@
           <h4 class="mbr-section-subtitle align-left pb-2 display-typing typing cra-font-air" style="display: inline; color: white;"><strong></strong></h4>
           <!-- 타이핑 효과 끝 -->
           <h1 class="mbr-section-title cra-font-white align-left display-logo cra-font-air" style="color: rgb(238, 238, 238)">
-            19-1 <span class="cra-font-pro">CRA</span><br>RECRUITING
+            19-2 <span class="cra-font-pro">CRA</span><br>RECRUITING
           </h1>
           <h5 class="mbr-section cra-font-white align-left display-logo cra-font-air" style="color: rgb(238, 238, 238); font-size: medium;">
-            모집 기간 : 2주차 주일 03/10 23:59 까지
+            모집 기간 : 3주차 주일 09/01 18:00 까지
           </h5>
           <!-- <div class="mbr-section-btn align-left"><a class="btn btn-lg display-4 btn-apply cra-font-air" href="https://goo.gl/forms/QcEWzmMsYybNu5un2"><strong>지원하기!</strong></a></div> -->
           <div class="mbr-section-btn align-left"><a class="btn btn-lg display-4 btn-apply cra-font-air" href="#recruiting"><strong>지원하기!</strong></a></div>
@@ -264,7 +264,7 @@
             <p class="mbr-text m-0 cra-font-black display-7 cra-font-air cra-project-explanation">
               <span class="cra-font-pro">HisTime</span><br>
               웹 초짜 전공 새내기 4명이 겨울방학동안 시간, 열정을 갈아넣어 만든 결과물입니다.<br>
-              HisTime은 예비시간표를 엑셀로 짰던 과거의 불편함을 해소하고자 개발을 시작하게 되었고 19년도 2학기에 본격 출시할 예정입니다:)<br>
+              HisTime은 예비시간표를 엑셀로 짰던 과거의 불편함을 해소하고자 개발을 시작하게 되었고 19년도 2학기중에 본격 출시할 예정입니다:)<br>
               <span class="cra-font-pro" id='recruiting'>개발스택: Vue.js, Node.js, Express.js, MySQL</span>
             </p>
           </a>
@@ -302,8 +302,9 @@
           <div class="col-md-12">
             <div class="col-12 col-md-12 align-center">
               <p class="mbr-text m-0 cra-font-black display-7 cra-font-air cra-project-explanation">
-                신입 회원은 입부하는 학기 방학에 반드시 <span class="cra-font-pro">방학 프로젝트</span>를 해야합니다.<br>
-                따로 정모는 없습니다. 단, 매학기 <span class="cra-font-pro">CRA 개강총회와 종강총회</span>에 반드시 참여해야합니다.<br>
+                <span class="cra-font-pro">하나. </span>신입 회원은 입부하는 학기 방학에 반드시 <span class="cra-font-pro">방학 프로젝트</span>를 해야합니다.<br>
+                <span class="cra-font-pro">둘. </span>신입 회원은 방학 프로젝트를 준비하는 매주 한 시간 가량의 <span class="cra-font-pro">스터디</span>에 참여해야 합니다.<br>
+                <span class="cra-font-pro">셋. </span>매학기 <span class="cra-font-pro">CRA 개강총회와 종강총회</span>에 반드시 참여해야합니다.<br>
               </p>
             </div>
           </div>
@@ -323,7 +324,7 @@
         <div class="col-12 col-md-12 align-center">
           <h3 class="mbr-section-subtitle align-center pb-2 display-5 cra-font-air">더 궁금하신 것이 있으시다면</h3>
           <h2 class="mbr-section-title align-center display-2 cra-font-pro">아래의 오픈 채팅방으로 들어오세요! 성심성의껏 답변해드리겠습니다.</h2>
-          <a href="https://open.kakao.com/o/ggtkNNfb">
+          <a href="https://open.kakao.com/o/sH306OBb">
             <img style="width: 30%" src="assets/images/QR_kakao.jpeg">
             <h3 class="mbr-section-subtitle align-center pb-2 display-5 cra-font-air">클릭하셔도 됩니다!</h3>
           </a>
@@ -369,8 +370,7 @@
 
 
   <script>
-    var countDownDate = new Date("Mar 10, 2019 23:59:59").getTime(); //1초마다 갱신되도록 함수 생성,실행
-    // var countDownDate = new Date("Feb 21, 2019 23:59:59").getTime(); //1초마다 갱신되도록 함수 생성,실행
+    var countDownDate = new Date("Sep 1, 2019 18:00:00").getTime(); //1초마다 갱신되도록 함수 생성,실행
 
     var x = setInterval(function () { // 오늘 날짜 등록
 
@@ -382,13 +382,16 @@
       var m = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
       var s = Math.floor((distance % (1000 * 60)) / 1000);
 
-//       document.getElementById("d-day").innerHTML = "지원마감까지 " + d + "일 " + h + "시간 " + m + "분 " + s + "초 남았습니다.";
-      document.getElementById("d-day").innerHTML = "지원이 마감되었습니다.";
+      var innerHtmlContent = 
+        d < 0 ? 
+        "지원이 마감되었습니다." : 
+        "지원마감까지 " + d + "일 " + h + "시간 " + m + "분 " + s + "초 남았습니다.";
+      document.getElementById("d-day").innerHTML = innerHtmlContent;
     });
 
     $(function () {
       $('.typing').unityping({
-        string: ['크으으으으으으으으으으으으으으랑', '디자이너도 컴공도 모두 환영', 'Computer Research Association',],
+        string: ['크으으으으으으으으으으으으으으랑', '고학번도 새내기도 모두 환영', 'Computer Research Association',],
         typingSpeed: 1000, // 타/분 (CPM; Characters per Minute)
         startDelay: 1000, // ms
         backSpeed: 50, // ms
