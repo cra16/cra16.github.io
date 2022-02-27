@@ -303,3 +303,16 @@ ul { list-style-type: none; }
 .cra-btn-apply {
   font-size: 2rem;
 }
+
+#history li {
+  padding-bottom: 1em;
+  border-bottom: 1px solid #d6d6d6;
+}
+
+#history li:first-child {
+  margin-top: 3em;
+}
+
+#history li:last-child {
+  border: 0px;
+}
